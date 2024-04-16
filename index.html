@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>E-Commerce</h1>
+      <input type="text" placeholder="Enter a product name.." />
+      <div>
+        <button id="open-btn">Cart</button>
+        <button>Register</button>
+        <button>Login</button>
+      </div>
+    </header>
+    <main>
+      <div class="category-wrapper">
+        <h2>Categories</h2>
+        <div class="categories"></div>
+      </div>
+      <div class="product-wrapper">
+        <h2>Products</h2>
+        <div class="products"></div>
+      </div>
+      <div class="modal-wrapper">
+        <div class="modal">
+          <img id="close-btn" src="https://github.com/Udemig/5-hi-JS-ECommerce/blob/main/images/close.png?raw=true" />
+          <div class="modal-list"></div>
+          <div class="total">
+            Total:
+            <span id="modal-info"> 0 </span>
+            $
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
